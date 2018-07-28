@@ -1,0 +1,24 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color:#f5f5f5;
+}
+.a{
+	width: 500px;
+	float: left;
+}
+.b{
+	width: 500px;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+}
