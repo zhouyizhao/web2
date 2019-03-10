@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  	<title>任务1</title>
+  	<meta charset="UTF-8">
+</head>
+<style>
+	legend{
+		color: red;
+	}
+	fieldset{
+		width: 500px;;
+	}
+	span{
+		color: red;
+	}
+	.t{
+		margin-top: 25px;
+	}
+</style>
+<body>
+	<h1>毕业生信息</h1>
+	<fieldset>
+		<legend>
+			学生信息
+		</legend>
+		<form  id="testform"  method="get"  action="form.asp">
+			姓名 <input type="text" placeholder="请输入姓名" name="name1"> <span> *</span><br>
+			学号 <input type="number" placeholder="请输入学号" name="number1"> <span> *</span><br>
+			手机 <input type="tel" placeholder="请输入电话" name="telephone1"> <span> *</span><br>
+			邮箱 <input type="email" placeholder="请输入邮箱" name="email1"> <span> *</span><br>
+		</form>
+	</fieldset>
+	<fieldset class="t">
+			<legend>
+				录取情况
+			</legend>
+			<form  id="testform"  method="get"  action="form.asp">
+				录取学校 <input type="text" name="schoolname1"><br>
+				入学成绩 <input type="number" name="fenshu" max="750" min="0"><br>
+				入学时间 <input type="date" name="date1">
+			</form>	
+		</fieldset>
+	<input class="t"  type="submit" value="提交"/>
+</body>
+</html>
+
