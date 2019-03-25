@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>work2</title>
+	<meta charset="utf-8"/>
+	<link rel="icon"/>
+	<style>
+		.a{
+			background-color: darkgrey;
+			width: auto;
+			margin-top: 5px;
+		}
+		.b{
+			float: left;
+		}
+		.c{
+			margin-left: 130px;
+			margin-top:-20px;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload=function(){
+			for(var i=0; i<localStorage.length; i++){
+					var key = localStorage.key(i);
+					var data = localStorage.getItem(key);
+					document.getElementById("name").innerHTML +="<div class='a'>"+data+"</div>";
+			}
+			document.getElementById("add").onclick = function(){
+					var text = document.getElementById("text").value;
+					var time= (new Date()).getTime();
+					for(var h=0;h<localStorage.length;h++){
+						var key = localStorage.key(h);
+						var data = localStorage.getItem(key);
+						if(text==data){
+							localStorage.removeItem(key)
+						}
+					}
+					localStorage.setItem(time, text);
+					document.getElementById("name").innerHTML="";
+					for(var i=0; i<localStorage.length; i++){
+						var key = localStorage.key(i);
+						var data = localStorage.getItem(key);
+						document.getElementById("name").innerHTML +="<div class='a'>"+data+"</div>";
+				}	
+			}		
+			document.getElementById("remove").onclick = function(){
+				for(var k=0;k<localStorage.length;k++){
+					var key = localStorage.key(k);
+					var data = localStorage.clear(key);
+				}
+				document.getElementById("name").innerHTML="";
+			}
+		}
+	</script>
+</head>
+<body>
+    <input type="text" id="text" placeholder="请输入想查找的商品">
+    <button id="add">搜索</button>
+    <p>最近搜索</p>
+    <div class="b" id="name"></div>
+    <button class="c" id="remove">X</button>
+</body>
+</html>
