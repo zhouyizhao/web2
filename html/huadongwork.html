@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 400px;
+				height: 500px;
+				border: #000 solid 1px;
+				margin: 50px auto;
+				overflow: hidden;
+			}
+			div img{
+				cursor: pointer;
+				transition: all 0.6s;
+			}
+			div img:hover{
+				transform: scale(1.4);
+                opacity: 0.7;
+                animation: move 2s 0.5s;
+			}
+            @keyframes move{
+                0%{
+                    left: 0px;
+                    top: 0px;
+                }
+                50%{
+                    left: 300px;
+                    top: 0px;
+                }
+                100%{
+                    left: 300px;
+                    top: 300px;
+                }
+            }
+		</style>
+	</head>
+	<body>
+		<div>
+            <img src="timg.jpg" />
+		</div>
+	</body>
+</html>
