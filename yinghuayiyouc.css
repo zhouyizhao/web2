@@ -1,0 +1,404 @@
+/*媒体查询*/
+@media screen and (min-width:770px){
+    #h_div{
+        display:block;
+    }
+    header{
+        height: 125px;
+    }
+    .lunbo{
+        height: 450px;
+        margin-top:125px;
+    }
+    .left{
+        display:block;
+    }
+    .right{
+        display:block;
+    }
+    .lunbo-lb{
+        display:block;
+    }
+    .chage-lunbo1{
+        display:none;
+    }
+    .lunbo-search{
+        bottom: 70px;
+        left: 420px;
+    }
+    #sbanner{
+        display: block;
+    }
+    #chage-sbanner{
+        display:none;
+    }
+    #routes{
+        display: block;
+    }
+    #chage-routes{
+        display:none;
+    }
+    #visa{
+        display: block;
+    }
+    #chage-visa{
+        display:none;
+    }
+    .Bbanner{
+        display: block;
+    }
+    #hope{
+        display: block;
+    }
+    #chage-hope{
+        display:none;
+    }
+    #footer{
+        display: block;
+    }
+    #chage-footer{
+        display:none;
+    }
+    .hope-bagd{
+        height: 1495px;
+        background-color: transparent;
+    }
+    footer{
+        height: 530px;
+    }
+}
+@media screen and (max-width:770px){
+    #h_div{
+        display:none;
+    }
+    header{
+        height: 80px;
+    }
+    .lunbo{
+        height: 250px;
+        margin-top:80px;
+    }
+    .left{
+        display:none;
+    }
+    .right{
+        display:none;
+    }
+    .lunbo-lb{
+        display:none;
+    }
+    .chage-lunbo1{
+        display:block;
+    }
+    .lunbo-search{
+        top: 180px;
+        left: 40px;
+    }
+    #sbanner{
+        display: none;
+    }
+    #chage-sbanner{
+        display:block;
+    }
+    #routes{
+        display:none;
+    }
+    #chage-routes{
+        display:block;
+    }
+    #visa{
+        display:none;
+    }
+    #chage-visa{
+        display: block;
+    }
+    .Bbanner{
+        display:none;
+    }
+    
+    #hope{
+        display: none;
+    }
+    #chage-hope{
+        display:block;
+    }
+    #footer{
+        display:none;
+    }
+    #chage-footer{
+        display:block;
+    }
+    .hope-bagd{
+        background-color: white;
+        margin-top: 20px;
+        height: 1830px;
+    }
+    footer{
+        height: 300px;
+    }
+}
+/*chage-lunbo*/
+.chage-lunbo1{
+    width: 500px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    top:30px;
+    left: 46px;
+    text-align: left;
+}
+.chage-lunbo1 h1{
+    font-size: 34px;
+}
+.chage-lunbo1 p:nth-child(2){
+    font-size: 26px;
+}
+/*chage-sbanner*/
+#chage-sbanner{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin:20px 0;
+}
+#chage-sbanner img{
+    float: left;
+    margin: 45px 0 0 40px;
+}
+#chage-sbanner div{
+    float: left;
+    padding-top:30px;
+    padding-left: 20px;
+}
+#chage-sbanner div h3{
+    margin-bottom: 10px;
+    color: #2b45b9;
+}
+#chage-sbanner div p{
+    color: #84858a;
+}
+#chage-sbanner button{
+    font-size: 20px;
+    width: 160px;
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid rgb(185, 180, 180);
+    border-radius:5px;
+    color: rgb(138, 128, 128);
+    margin-left: 15px;
+    margin-top: 70px;
+}
+/*chage-routes*/
+#chage-routes{
+    width: 100%;
+    height: 1070px;
+    background-color: white;
+}
+.chage-routes-div{
+    width: 670px;
+    margin: 0 auto;
+}
+.chage-routes-div div:nth-child(1){
+    width: 670px;
+    height: 100px;
+    padding-top: 30px;
+}
+.chage-routes-div div:nth-child(1) p{
+    border-left: 2px solid #e8420a;
+    padding-left: 10px;
+    font-size:28px;
+}
+.chage-routes-div1{
+    height: 400px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.chage-routes-div1 img{
+    width:670px;
+    height: 400px;
+}
+.chage-routes-div1 div{
+    width:670px;
+    height: 115px;
+    opacity: 0.7;
+    color:white;
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+}
+.chage-routes-div1 div p:nth-child(1){
+    width:400px;
+    height: 115px;
+    font-size: 24px;
+    margin: 20px;
+    float: left;
+}
+.chage-routes-div1 div p:nth-child(2){
+    width:200px;
+    height: 115px;
+    font-size: 16px;
+    margin-top: 40px;
+    float: left;
+}
+.chage-routes-div1 div span{
+    font-size: 28px;
+}
+.chage-routes-div button{
+    font-size: 20px;
+    width: 225px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(185, 180, 180);
+    border-radius:5px;
+    color: rgb(138, 128, 128);
+    margin-left: 180px;
+    margin-top: 30px;
+}
+/*chage-visa*/
+#chage-visa{
+    width: 100%;
+    height:670px;
+    background-color: white;
+    margin-top: 20px;
+}
+.chage-visa-div{
+    width: 670px;
+    margin: 0 auto;
+}
+.chage-visa-div div:nth-child(1){
+    width: 670px;
+    height: 100px;
+    padding-top: 30px;
+}
+.chage-visa-div div:nth-child(1) p{
+    border-left: 2px solid #e8420a;
+    padding-left: 10px;
+    font-size:28px;
+}
+
+.chage-visa-div button{
+    font-size: 20px;
+    width: 225px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(185, 180, 180);
+    border-radius:5px;
+    color: rgb(138, 128, 128);
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.chage-visa-div1{
+    float: left;
+    width: 295px;
+    height: 407px;
+    margin-right: 5px;
+    position: relative;
+}
+.chage-visa-div1 img{
+    width: 295px;
+    height: 407px;
+}
+.chage-visa-div2{
+    float: left;
+    width: 365px;
+    height: 200px;
+    margin-bottom: 8px;
+    position: relative;
+}
+.chage-visa-div2 img{
+    width: 365px;
+    height: 200px;
+}
+.chage-visa-div3{
+    float: left;
+    width: 365px;
+    height: 200px;
+    position: relative;
+}
+.chage-visa-div3 img{
+    width: 365px;
+    height: 200px;
+}
+.chage-visa-p{
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    color:white;
+    position:absolute;
+    bottom: 0;
+    margin:0px;
+    font-size: 28px;
+    text-align: center;
+}
+.chage-visa-p1{
+    height: 55px;
+    line-height: 55px;
+}
+.chage-visa-p2{
+    height: 50px;
+    line-height: 50px;
+}
+.chage-visa-p span{
+    font-size: 18px;
+}
+/*chage-hope*/
+#chage-hope{
+    width: 670px;
+    margin: 0 auto;
+}
+#chage-hope div:nth-child(1){
+    width: 670px;
+    height: 100px;
+    padding-top: 30px;
+}
+#chage-hope div:nth-child(1) p{
+    border-left: 2px solid #e8420a;
+    padding-left: 10px;
+    font-size:28px;
+}
+#chage-hope div:nth-child(1) span{
+    font-size:18px;
+}
+.chage-hope-div{
+    margin-top: 50px;
+}
+.chage-hope-p1{
+    text-align: center;
+    font-size:28px; 
+    margin-top: 65px;
+    margin-bottom: 35px;
+}
+.chage-hope-p2{
+    font-size:18px; 
+    margin-bottom: 40px;
+}
+.chage-hope-img{
+    width: 100%;
+    height: 330px;
+}
+.chage-hope-div div{
+    width: 100%;
+    height: 190px;
+    border-bottom:1px solid #84858a;
+}
+.chage-hope-div div img{
+    margin: 50px 80px 60px 100px ;
+    float: left;
+}
+.chage-hope-div div p{
+    float: left;
+    margin-top: 50px;
+    font-size: 18px;
+}
+/*chage-footer*/
+#chage-footer{
+    width: 670px;
+    margin: 0 auto;
+}
+#chage-footer p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding-top: 100px;
+    line-height: 30px;
+}
